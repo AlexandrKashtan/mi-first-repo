@@ -7,6 +7,6 @@ public class GreeterTests
     {
         string result = Greeter.GetGreeting("Александр");
 
-        Assert.Equal("Здравствуй, Александр! Добро пожаловать в DevOps.", result);
+        Assert.Equal("Привет, Александр! Добро пожаловать в DevOps.", result);
     }
 }
