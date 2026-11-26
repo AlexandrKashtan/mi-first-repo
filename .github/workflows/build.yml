@@ -25,3 +25,6 @@ jobs:
       - name: Собрать проект
         run: dotnet build --no-restore
         working-directory: HelloDevOps
+
+      - name: Запустить тесты
+        run: dotnet test HelloDevOps.Tests
